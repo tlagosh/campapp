@@ -2,7 +2,7 @@ import React from "react";
 import "./Question.css";
 
 const Question = ({ question }) => (
-    <div className="question">
+    <div>
         <h2 className="questiontext">{question}</h2>
     </div>
 );

@@ -23,7 +23,7 @@ function App() {
   });
 
   return (
-    <div className="App">
+    <div style={{ alignItems: 'center', justifyContent: 'center', flex: 1, textAlign: 'center', marginTop: '20%' }}>
       <style>{'body { background-color: #22cde0; }'}</style>
       <Question question={questions[currentQuestion]} />
     </div>
