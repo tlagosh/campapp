@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import Question from './Question';
 import Chile from './assets/chile.png';
-import campo from './assets/campo.png';
 
 var sectionStyle = {
   backgroundImage: "url(" + Chile + ")",
@@ -76,7 +75,7 @@ function App() {
 
   return (
     <div style={{ alignItems: 'center', justifyContent: 'center', flex: 1, textAlign: 'center', marginTop: '20%' }}>
-      <style>{'body { background-image: url(' + campo + '); background-size: cover; }'}</style>
+      <style>{'body { background-color: #2ebabf; }'}</style>
       <Question question={questions[currentQuestion]} />
       <div style={{ marginTop: 20 }}>
         <button onClick={handleNextQuestion} style={{...sectionStyle, fontSize: 20, padding: 15, borderRadius: 25, border: 'none', color: 'transparent' }}>Siguiente
