@@ -59,6 +59,16 @@ function App() {
     '¿A cuántos Campos asistió Clemente "el amateur" Correa?',
     '¿En qué celebración se sacó a Clemente "el amateur" Correa por primera vez del grupo?',
     '¿Cómo se llama la ex de Vicente Vial?',
+    '¿Cuántos años fue numerario Pedro?',
+    '¿Qué año se desvinculó Correa?',
+    '¿Quién meo a quién afuera de "El Galpón"',
+    '¿Cómo se llama la que le dejó un chupón al Nacho?',
+    '¿Cómo se llamaba la que se joteó ayer a Pepeyo?',
+    'Si digo Chillán, ¿En qué pienso?',
+    'El Gormi, ¿Se peló ayer?',
+    '¿Quién se pela en medio de un carrete en Buin?',
+    '¿Cómo le decía Gonzalo Gormaz a las comunas de La Reina y Ñuñoa?',
+    '¿Cuánto duró la abstinencia de cigarro de la Cata Stevenson?',
   ];
 
   shuffleArray(questions);
